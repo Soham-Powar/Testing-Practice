@@ -21,5 +21,9 @@ it("string length is 1", () => {
 });
 
 it("all caps", () => {
-  expect(capitalize("AAS")).toBe("Aas");
+  expect(capitalize("APplE")).toBe("Apple");
+});
+
+it("not a string", () => {
+  expect(capitalize(22)).toBe("");
 });
