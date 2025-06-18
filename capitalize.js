@@ -1,3 +1,3 @@
 export default function capitalize(string) {
-  return "Kratos";
+  return string[0].toUpperCase() + string.slice(1);
 }
